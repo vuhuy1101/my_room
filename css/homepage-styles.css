@@ -237,10 +237,15 @@ body {
   width: 80px;
   display: inline-block; }
 
-.myLink {
+.myLink, .myLink a {
   color: #c678dd;
-  text-decoration: underline; }
+  text-decoration: underline; 
+  transition: color 0.25s;
+}
 
+.myLink a:hover {
+  color: #e5b6f8;
+}
 /* The Close Button */
 .close {
   color: #aaa;
