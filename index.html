@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Huy Vu</title>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/homepage-styles.css">
+    <link rel="stylesheet" href="css/clock.css">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+	</head>
+	<body>
+    <div class="myNote">
+      <p>Animation is built using HTML and <br>
+        CSS only (with few JS for the clock)</p>
+    </div>
+
+    <div class="wall">
+      <div id="clock">
+				<div id="hour" class="pointer"></div>
+				<div id="minute" class="pointer"></div>
+				<div id="second" class="pointer"></div>
+			</div>
+    </div>
+
+    <div class="imageFrame">
+      <div class="innerFrame"></div>
+      <div class="bird first"></div>
+      <div class="bird second"></div>
+      <div class="bird third"></div>
+    </div>
+
+    <div class="board">
+      <p><span id="iam">Hey, it's Huy</span></p>
+      <p><span id="description">I am passionate about<br/>
+        <span style="color:#14cff3;">coding</span> and
+        <span style="color:#e3122b;">designing</span></span></p>
+      <div id="note-container">
+        <div class="note first">
+          <div class="note-top"></div>
+          <div class="line-first"></div><div class="line-second"></div>
+          <div class="line-third"></div><div class="line-fourth"></div>
+        </div>
+        <div class="note second">
+          <div class="note-top"></div>
+          <div class="line-first"></div><div class="line-second"></div>
+          <div class="line-third"></div><div class="line-fourth"></div>
+        </div>
+        <div class="note third">
+          <div class="note-top"></div>
+          <div class="line-first"></div><div class="line-second"></div>
+          <div class="line-third"></div><div class="line-fourth"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">x</span>
+        <p><span class="myClass">class HuyVu:</span></p>
+        <p class="myDef">def __init__:</p>
+        <p><span class="defContent">self.name</span> = "Huy Vu"</p>
+        <p><span class="defContent">self.address</span> = "San Jose , CA"</p>
+        <p><span class="defContent">self.school</span> = "San Jose State University"</p>
+        <p><span class="defContent">self.education</span> = "Bachelors of Computer Science"</p>
+        <p><span class="defContent">self.contact</span> = { <br><span class="myContact">email : </span><span class="myLink">"vuhuy1101@gmail.com"</span> , <br>
+                                                            <span class="myContact">linkedin : </span><span class="myLink">"https://www.linkedin.com/in/huyvu1101/"</span> ,<br>
+                                                            <span class="myContact">github : </span><span class="myLink">"https://github.com/vuhuy1101"</span><br>
+                                                          <span style="padding-left: 270px">}</span></p>
+   
+        <p class="myDef">def mySkills(self):</p>
+        <p><span class="defContent">Java</span> = { "JDBC" , "Hibernate" , "OpenGL" }</p>
+        <p><span class="defContent">Frontend</span> = { "HTML5" , "CSS3" , "JavaScript" , "Bootstrap" , "React" }</p>
+        <p><span class="defContent">Backend</span> = { "PHP" : ("CodeIgniter") , "Python" : ("Flask" , "Django") }</p>
+        <p><span class="defContent">Database</span> = { "MySQL" }</p>
+        <p><span class="defContent">Web Services</span> = { "REST API" , "AJAX" }</p>
+        <p><span class="defContent">Design</span> = { "Photoshop" , "Illustrator" }</p>
+      </div>
+    </div>
+
+    <div class="desk">
+      <div class="ontop">
+        <div class="books">
+          <div class="books first"></div>
+          <div class="books second"></div>
+          <div class="books third"></div>
+          <div class="books fourth"></div>
+        </div>
+        <div class="coffee">
+          <div class="smoke first"></div>
+          <div class="smoke second"></div>
+          <div class="smoke third"></div>
+          <div class="smoke fourth"></div>
+        </div>
+      <a href="work.html">
+        <div class="laptop">
+          <div class="laptop-logo"><span>HV</span></div>
+        </div>
+      </a>
+        <div class="speaker">
+          <div class="speaker-line"></div>
+          <div class="speaker-sound first"></div>
+          <div class="speaker-sound second"></div>
+        </div>
+      </div>
+      <div class="desk-body"></div>
+    </div>
+
+    <div class="connect">
+      <ul>
+        <li><a href="https://github.com/vuhuy1101"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.facebook.com/WieVu"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/huy-vu-a944a7a6"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+
+    <script src="js/clock.js"></script>
+    <script src="js/board.js"></script>
+	</body>
+</html>

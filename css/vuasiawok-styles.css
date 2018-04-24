@@ -1,0 +1,133 @@
+@media(min-width: 960px){
+	.mainContent2 h1{
+		font-family: "Courier New", Courier, monospace;
+		font-size: 2.9em;
+		margin-top: 60px;
+		text-align: center;
+	}
+
+	.mainContent2 p{
+		margin:20px 250px 60px 250px;
+		font-size: 1.5em;
+		font-family: "Times New Roman", Times, serif;
+		line-height: 2em;
+	}
+}
+
+@media(min-width: 768px){
+	.mainContent2 h1{
+		font-family: "Courier New", Courier, monospace;
+		font-size: 2.9em;
+		margin-top: 40px;
+		text-align: center;
+	}
+
+	.mainContent2 p{
+		margin:20px 150px 60px 150px;
+		font-size: 1.4em;
+		font-family: "Times New Roman", Times, serif;
+		line-height: 1.8em;
+	}
+	
+	#mockup_img1{
+		width:55%;
+		float:left;
+		margin-left:150px;
+		margin-bottom: 100px;
+		border-radius: 10px;
+	}
+
+	#mockup_img2{
+		width:80%;
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+	}
+	
+	#mockup_video{
+		position: relative;
+		left:-20px;
+		top:300px;
+		width: 22%;
+		height:22%;
+		border-radius: 35px;
+		border: 0.5px solid #5e5c5a;
+	}
+}
+
+@media(max-width: 767px){
+	.mainContent2 h1{
+		font-family: "Courier New", Courier, monospace;
+		font-size: 2.6em;
+		margin-top: 40px;
+		text-align: center;
+	}
+
+	.mainContent2 p{
+		margin:20px 70px 60px 70px;
+		font-size: 1.3em;
+		font-family: "Times New Roman", Times, serif;
+		line-height: 1.8em;
+	}
+	
+	#mockup_img1{
+		display: block;
+		width:80%;
+		margin:0 auto;
+		border-radius: 8px;
+		position: relative;
+		margin-bottom: 40px;
+	}
+	
+	#mockup_img2{
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		width:80%;
+		border-radius: 8px;
+		margin-bottom: 40px;
+	}
+	
+	#mockup_video{
+		position: relative;
+		display: block;
+		width: 40%;
+		height:40%;
+		margin: 0 auto;
+		margin-bottom: 30px;
+		border-radius: 35px;
+		border: 0.5px solid #5e5c5a;
+	}
+}
+
+
+#header{
+	position: relative;
+	color:white;
+}
+
+#header img{
+	width:100%;
+}
+
+.mainContent1{
+	position: relative;
+	background-color: #fdf1d3;
+	width:100%;
+	padding: 70px 0 70px 0;
+}
+
+.demoURL{
+	margin: 0 auto;
+	margin-top: 100px;
+	padding: 30px 30px 30px 30px;
+	height:100px;
+	width:250px;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+
+.demoURL a{
+	background-color: #70d0fa;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Huy Vu</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+   
+    
+    <!-- Custom Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/mystyles.css">
+  </head>
+  <body>
+    <nav id="mainNav" class="navbar navbar-default navbar-static-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavBar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="navbar-collapse collapse" id="myNavBar">       
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a class="hvr-grow-rotate" href="index.html">HOME</a>
+            </li>
+            <li>
+              <a class="page-scroll hvr-grow-rotate" href="work.html"><span style="font-weight: bold; font-size: 1.1em;">PORTFOLIO</span></a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+    
+    <div id="work-top">
+      <div id="workList">
+        <ul>
+          <li><span class="tn_name">Vu Asia Wok v1</span></li>
+          <li><span class="tn_name">Vu Asia Wok v2</span></li>
+          <li><span class="tn_name">Futurera</span></li>
+          <li><span class="tn_name">Burger Website</span></li>
+          <li><span class="tn_name">OLAP</span></li>
+        </ul>
+      </div>
+      
+      <div id="workContent">
+      
+      </div>
+    </div>
+    
+    <section class="footer">
+      <div id="copyright">
+        <p><i>©2016 by Huy Vu. All Rights Reserved.</i></p>
+        <p><i>Thank you for stopping by, I really appreciate it.</i></p>
+      </div>
+      <div id="connect">
+        <p><b>Connect</b></p>
+        <ul>
+          <li><a href="https://github.com/vuhuy1101"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.facebook.com/WieVu"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/huy-vu-a944a7a6"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Custom Theme JavaScript -->
+     <script src="js/repeat_words.js"></script>
+    <script type="text/javascript">
+      var is_clicked = false;
+      var temp = document.getElementById("workList").getElementsByTagName("li");      
+   
+      /* add background image to each circlular item in the list */
+      for(var i = 0; i < 5;i++){
+        var str = "url('img/tn/" + i + ".jpg')";
+        temp[i].style.backgroundImage = str;
+      }
+
+    </script>
+    
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    
+  </body>
+</html>

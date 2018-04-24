@@ -1,0 +1,156 @@
+@media(min-width: 960px){
+	.mainContent2 h1{
+		font-family: "Courier New", Courier, monospace;
+		font-size: 2.9em;
+		margin-top: 60px;
+	}
+
+	.mainContent2 p{
+		margin:20px 250px 60px 250px;
+		font-size: 1.5em;
+		font-family: "Times New Roman", Times, serif;
+		line-height: 2em;
+	}
+}
+
+@media(min-width: 768px){
+	.mainContent2 h1{
+		font-family: "Courier New", Courier, monospace;
+		font-size: 2.9em;
+		margin-top: 40px;
+	}
+
+	.mainContent2 p{
+		margin:20px 150px 60px 150px;
+		font-size: 1.4em;
+		font-family: "Times New Roman", Times, serif;
+		line-height: 1.8em;
+	}
+	
+	#mockup_img1{
+		width:46%;
+		float:left;
+		margin-left: 25px;	
+		margin-right: 10px;
+		border-radius: 10px;
+	}
+
+	#mockup_img2{
+		width:46%;
+		float:right;
+		margin-right: 25px;
+		margin-left: 10px;
+		border-radius: 10px;
+	}
+	
+	#mockup_img3{
+		width:65%;
+		position: relative;
+		margin: 50px 0 0 30px;
+	}
+
+	#mockup_img4{
+		position: relative;
+		width:25%;
+		margin: 40px 30px 0 0;
+	}
+}
+
+@media(max-width: 767px){
+	.mainContent2 h1{
+		font-family: "Courier New", Courier, monospace;
+		font-size: 2.6em;
+		margin-top: 40px;
+	}
+
+	.mainContent2 p{
+		margin:20px 70px 60px 70px;
+		font-size: 1.3em;
+		font-family: "Times New Roman", Times, serif;
+		line-height: 1.8em;
+	}
+	
+	#mockup_img1{
+		display: block;
+		width:80%;
+		margin:0 auto;
+		border-radius: 8px;
+		position: relative;
+		margin-bottom: 40px;
+	}
+	
+	#mockup_img2{
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		width:80%;
+		border-radius: 8px;
+		margin-bottom: 40px;
+	}
+	
+	#mockup_img3{
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		width:80%;
+		margin-bottom: 40px;
+	}
+	
+	#mockup_img4{
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		width:50%;
+		margin-bottom: 40px;
+	}
+}
+
+#burger_header{
+	position: relative;
+}
+
+#burger_header img{
+	width:100%;
+}
+
+.futurera_content2{
+	position: relative;
+	height:300px;
+}
+
+.mainContent1{
+	background-color: #6bd0fd;
+	overflow: hidden;
+	padding: 45px 0 45px 0;
+}
+
+.mainContent2{
+	position:relative;
+	text-align: center;
+	background-color: white;
+	padding:5px 5px 5px 5px;
+}
+
+#burger_demo{
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	margin-top: 100px;
+	height:50px;
+	width:180px;
+	background-color: #327ab7;
+	border-style: none;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+
+#burger_demo a{
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#burger_demo:hover{
+	background-color: #1d4970;
+}

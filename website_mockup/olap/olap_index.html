@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="css/olap-styles.css" type="text/css">
+	
+	<body>
+		<div id="burger_header">
+			<img src="website_mockup/olap/img/olap0.png">
+		</div>
+		<div class="mainContent2">
+			<h1>Online Analytical Processing</h1>
+			<h1>(OLAP)</h1>
+			<p>OLAP is a computer processing that enables a user to easily extract and view data from different points of view. OLAP data is stored in a multidimensional database, in this case the three dimensions are Product, Time, and Store. OLAP is really useful for analyzing data, figuring out the relationship between data items, and can be used for data mining as well. For example, a store owner can use OLAP to display his store revenues over each month, how many products were sold over the summer, or simple compare the revenues of different stores over the same period.</p>
+			<p>I worked with a group of 3 to build a simple web application showing how OLAP operations work (including slice, dice, roll-up, and drill-down). I was a team lead who designed the front-end, part of the back-end, and made sure that the team was on the same page by keeping up the team communication. For the project, we decided to use Python microframework <i>Flask</i> because it is simple and easy to setup. For the front-end, we used Javascript and jQuery together with Bootstrap to update the data table after each operation without refreshing the page.</p>
+		</div>
+		<div class="mainContent1">
+			<h3>OLAP Cube Dimension</h3>
+			<img class="mockup_img" src="website_mockup/olap/img/dimension.png">
+			<h3>Original Cube</h3>
+			<img class="mockup_img" src="website_mockup/olap/img/original.png">
+			<h3>Roll up after climbing from city to state</h3>
+			<img class="mockup_img" src="website_mockup/olap/img/cityToState.png">
+			<h3>Drill down by climbing down from category to subcategory </h3>
+			<img class="mockup_img" src="website_mockup/olap/img/catToSubcat.png">
+			<h3>Slice using subcategory = ‘Cleaning Supplies’</h3>
+			<img class="mockup_img" src="website_mockup/olap/img/slice.png">
+			<h3>Dice operation</h3>
+			<img class="mockup_img" src="website_mockup/olap/img/dice.png">
+
+		</div>
+		
+	</body>
+</html>
